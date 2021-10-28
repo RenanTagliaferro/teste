@@ -1,0 +1,8 @@
+#este código é um teste da aula de fundamentos, ele conta até 10.
+x=0
+while int(x)<10:
+    print("%d"%x,end=", ")
+    x+=1
+    if x==10:
+        print(f"{x}.")
+print("_"*35)
